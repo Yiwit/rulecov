@@ -1,0 +1,43 @@
+{
+  "name": "rulecov",
+  "version": "0.1.0",
+  "description": "Test coverage for agent rule files: per-rule behavioral assertions, ablation runs, and a live/dead/untestable report.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Yigit Tas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yiwit/rulecov.git"
+  },
+  "homepage": "https://github.com/Yiwit/rulecov#readme",
+  "bugs": "https://github.com/Yiwit/rulecov/issues",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "rulecov": "./dist/cli.js"
+  },
+  "main": "./dist/classify.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "agents",
+    "prompt",
+    "coverage",
+    "ablation",
+    "claude-code",
+    "agents-md",
+    "llm"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
