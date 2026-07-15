@@ -23,6 +23,8 @@ commit-message-co-authored       UNTESTABLE             -        -
 
 That table is real output from a production rules file ([examples/real-audit](examples/real-audit)). One rule in eight demonstrably worked.
 
+📖 The story behind this tool, pilot findings included: [**Your Prompts Have No Test Coverage**](https://medium.com/@yigit.tas/your-prompts-have-no-test-coverage-2393e12a4986)
+
 ## Contents
 
 [Quick start](#quick-start) · [How it works](#how-it-works) · [Commands](#commands) · [Configuration](#configuration) · [Outputs](#outputs) · [Permissions](#permissions) · [Cost](#cost) · [Other agents](#using-other-agents) · [Verdicts](#verdicts-and-their-limits) · [Troubleshooting](#troubleshooting) · [Roadmap](#project-status-and-roadmap)
@@ -191,7 +193,7 @@ This repo has its own [`AGENTS.md`](AGENTS.md), and yes, it is a valid audit tar
 
 ## Project status and roadmap
 
-A lab, not a product: it accompanies a blog post about rule-file coverage, ships small, and reports raw counts without pretending they are statistics. Maintenance is best-effort; issues and PRs welcome.
+A lab, not a product: it accompanies [a blog post about rule-file coverage](https://medium.com/@yigit.tas/your-prompts-have-no-test-coverage-2393e12a4986), ships small, and reports raw counts without pretending they are statistics. Maintenance is best-effort; issues and PRs welcome.
 
 Roadmap, in rough order:
 
